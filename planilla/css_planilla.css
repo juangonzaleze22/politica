@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, #f8f7f7, #faf9f9, #fbfbfb, #fdfdfd, #ffffff);
+}
+
+header {
+    background: #c10000;
+    width: 100%;
+    box-shadow: 0px 1px 5px rgba(226, 9, 9, 0.876);
+}
+/* Navbar */
+
+.nav-edit{
+    padding: 0;
+}
+
+.navbar-brand{
+    display: flex;
+    align-items: center;
+}
+.navbar-brand .text-nav p:first-child {
+    font-size: 14px;
+}
+.navbar-brand .text-nav p {
+    margin: 0;  
+    color: #fff;
+}
+.navbar-brand .text-nav p:last-child{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: -5px;
+}
+
+.nav-edit .nav-link{
+    color: #fff;
+    transition: .3s;
+    margin: auto 5px;
+}
+.nav-edit .nav-link:hover{
+    color: #c7c7c7;
+}
+
+.navbar-toggler i{
+    color: #fff;
+}
+
+
+
+
+#filtro {
+    padding: 15px;
+    max-width: 620px;
+    width: 95%;
+    margin: 30px auto;
+    box-shadow: 0 5px 14px rgba(0,0,0,0.19), 0 0px 0px rgba(0,0,0,0.23);
+    background-color: #fff;
+}
+
+.btn-seacrh, .btn-seacrh:hover{
+    background-color: #c10000;
+    color: #fff;
+    display: block;
+    margin: auto;
+}
+
+/* #sel1 {
+    position: relative;
+    top: -8px;
+    left: 50px;
+}
+
+#sel2 {
+    position: relative;
+    top: -45px;
+    left: 255px;
+}
+
+#label1 {
+    position: relative;
+    top: 10px;
+    left: 10px;
+} */
+
+#label2 {
+    position: relative;
+    top: -27px;
+    left: 200px;
+}
+
+#sel3 {
+    position: relative;
+    top: -82px;
+    left: 385px;
+}
+
+#label3 {
+    position: relative;
+    top: -64px;
+    left: 331px;
+}
+
+#imagen {
+    position: relative;
+    top: 45px;
+    left: 275px;
+
+}
+
+#liberal {
+    width: 70px;
+    height: 70px;
+}
+
+/* #buscarp {
+    position: absolute;
+    top: 10px;
+    left: 440px;
+} */
+#borde_planilla{
+    max-width: 1000px;
+    margin: auto;
+    width: 95%;
+    height: 500px;
+    box-shadow: 0 5px 14px rgba(0,0,0,0.19), 0 0px 0px rgba(0,0,0,0.23);
+    background: #fff;
+}
+
+.table > tbody > tr > td{
+    text-align: center;
+}
+
+/* Medias query */
+
+@media (min-width: 768px) and (max-width: 992px){
+    #borde_planilla{
+        height: auto;
+        min-height: 250px;
+    }
+}
+@media (max-width: 767px){
+  #borde_planilla{
+      height: auto;
+      min-height: 200px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px){
+  
+}

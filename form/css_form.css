@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, #f8f7f7, #faf9f9, #fbfbfb, #fdfdfd, #ffffff);
+}
+
+header {
+    background: #c10000;
+    width: 100%;
+    box-shadow: 0px 1px 5px rgba(226, 9, 9, 0.876);
+}
+/* Navbar */
+
+.nav-edit{
+    padding: 0;
+}
+
+.navbar-brand{
+    display: flex;
+    align-items: center;
+}
+.navbar-brand .text-nav p:first-child {
+    font-size: 14px;
+}
+.navbar-brand .text-nav p {
+    margin: 0;  
+    color: #fff;
+}
+.navbar-brand .text-nav p:last-child{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: -5px;
+}
+
+.nav-edit .nav-link{
+    color: #fff;
+    transition: .3s;
+    margin: auto 5px;
+}
+.nav-edit .nav-link:hover{
+    color: #c7c7c7;
+}
+
+.navbar-toggler i{
+    color: #fff;
+}
+
+/* Body */
+
+.body-cont{
+    margin: 35px auto;
+}
+
+#form {
+    position: relative;
+    background-color: #fff;
+    z-index: 2;
+    border: solid 1px #cccccc;
+    border-radius: 5px;
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 5px 14px rgba(0,0,0,0.19), 0 0px 0px rgba(0,0,0,0.23);
+}
+
+.title-form{
+    text-align: center;
+    color: #c10000;
+    margin-bottom: 20px;
+}
+
+.tabcontent .title{
+    color: #666;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.btn-consultar, .btn-consultar:hover{
+    background-color: #c10000;
+    color: #fff; 
+}
+
+.form-control.edit{
+    max-width: 320px;
+}
+
+
+.background {
+    background: #ececec;
+    color: #666;
+    width: 100%;
+    min-height: 36px;
+    border-radius: 5px;
+    margin: auto 20px;
+    padding: 8px;
+    text-align: center;
+}
+
+.background:first-child{
+    margin-left: 0;
+}
+.background:last-child{
+    margin-right: 0;
+}
+
+.col-form-label{
+    color: #666;
+}
+
+.text {
+    border: solid 1px #cccccc;
+    width: 170px;
+    height: 30px;
+    margin: 8px 8px 8px 28px;
+}
+
+.btn-save, .btn-save:hover{
+    background-color: #c10000;
+    color: #fff;
+    margin: auto;
+    display: block;
+    margin-top: 15px;
+}
+
+
+#pp {
+    position: relative;
+    top: 8px;
+}
+
+#otrolado {
+    box-shadow: 12px 10px 5px #dad7d7;
+    position: relative;
+    z-index: 2;
+    border: solid 1px gray;
+    border-radius: 5px;
+    width: 500px;
+    height: 358px;
+    top: -310px;
+    left: 739px;
+}
+
+#label1 {
+    position: relative;
+    top: 20px;
+    left: 94px;
+    width: 20px;
+    height: 20px;
+}
+
+#label2 {
+    position: relative;
+    top: -19px;
+    left: 317px;
+    width: 20px;
+    height: 20px;
+}
+
+#label3 {
+    position: relative;
+    top: 20px;
+    left: 80px;
+    width: 80px;
+    height: 20px;
+}
+
+#dp1 {
+    position: relative;
+    top: 27px;
+    left: 85px;
+    width: 126px;
+    height: 20px;
+    background: #dad7d7;
+}
+
+#dp2 {
+    position: relative;
+    top: -12px;
+    left: 309px;
+    width: 126px;
+    height: 20px;
+    background: #dad7d7;
+}
+
+#dp3 {
+    position: relative;
+    top: 27px;
+    left: 80px;
+    width: 126px;
+    height: 20px;
+    background: #dad7d7;
+}
+
+#imagen {
+    width: 500px;
+    height: 244px;
+}
+
+#liberal {
+    width: 70px;
+    height: 70px;
+}
+
+
+/* Style the tab */
+.tab {
+    float: left;
+    background-color: #fff;
+    /* border: 1px solid #ccc; */
+    /* background-color: #f1f1f1; */
+    width: 30%;
+    height: 300px;
+    box-shadow: 0 5px 14px rgba(0,0,0,0.19), 0 0px 0px rgba(0,0,0,0.23);
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 12px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ecececec;
+    color: #666666;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: #c10000;
+    color: #fff;  
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    width: 70%;
+    border-left: none;
+    margin-bottom: 30px;
+}
+
+
+#ubica {
+    position: relativa;
+    top: 30px;
+}
+
+
+.label {
+    margin-left: 47px;
+    margin-right: 0px;
+}
+/* 
+#iguardar {
+    position: relative;
+    top: 60px;
+    left: -315px;
+} */
+
+
+/* Medias query */
+
+@media (min-width: 768px) and (max-width: 992px){
+    #form{
+        width: auto;
+    }
+
+    .btn-consultar{
+        margin: 10px auto;
+        display: block;
+    }
+
+    .tab button{
+        font-size: 14px;
+    }
+}
+@media (max-width: 767px){
+    .tab{
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .tabcontent{
+        width: 100%;
+        padding: 0;
+        height: auto;
+    }
+    #form{
+        width: 100%;
+    }
+    .form-control.edit{
+        width: 100%;
+    }
+
+    .btn-consultar{
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .background{
+        margin: 10px 0;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    .tab{
+        width: 40%;
+    }
+
+    .tabcontent{
+        width: 60%;
+    }
+
+    .tab button{
+        font-size: 14px;
+    }
+
+    #form{
+        width: 90%;
+    }
+}
